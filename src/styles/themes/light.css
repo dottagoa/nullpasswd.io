@@ -1,0 +1,23 @@
+.light {
+  --bg: #ffffff;
+  --fg: #1d1d1d;
+
+  --fg-faded: #1d1d1daa;
+  --fg-faded-light: #1d1d1d55;
+
+  --red: #ff5252;
+  --orange: #ffab40;
+  --yellow: #ffff00;
+  --green: #47ffa0;
+  --lblue: #40c4ff;
+  --blue: #6796e6;
+  --purple: #e040fb;
+  --pink: #ff3366;
+
+  --li: #40c4ff77;
+
+  --btn: #0001;
+  --btn-active: #0002;
+  --btn-border: #0002;
+  --btn-border-active: #0006;
+}

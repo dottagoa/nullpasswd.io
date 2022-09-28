@@ -1,0 +1,29 @@
+.themeToggle {
+  margin-left: 0.3rem;
+  float: right;
+
+  i {
+    margin: 0;
+  }
+
+  button {
+    padding: 0;
+    aspect-ratio: 1 / 1;
+    height: 36px;
+    font-size: 18px;
+    background: transparent;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background: var(--btn);
+    }
+
+    &:active {
+      background: var(--btn-active);
+      transform: scale(1.2);
+    }
+  }
+}

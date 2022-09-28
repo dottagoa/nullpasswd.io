@@ -1,0 +1,23 @@
+.dark {
+  --bg: #16171a;
+  --fg: #e3e3e3;
+
+  --fg-faded: #e3e3e377;
+  --fg-faded-light: #e3e3e3aa;
+
+  --red: #ff5252;
+  --orange: #ffab40;
+  --yellow: #ffff00;
+  --green: #47ffa0;
+  --lblue: #40c4ff;
+  --blue: #6796e6;
+  --purple: #e040fb;
+  --pink: #ff3366;
+
+  --li: #48539177;
+
+  --btn: #fff1;
+  --btn-active: #fff4;
+  --btn-border: #fff4;
+  --btn-border-active: #fff8;
+}

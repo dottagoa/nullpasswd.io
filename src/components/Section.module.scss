@@ -1,0 +1,15 @@
+.section {
+  padding: 0 0.5rem 0;
+
+  &:not(:last-child) {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--btn-border);
+  }
+}
+
+.noBorder {
+  margin-bottom: 3rem !important;
+  padding-bottom: 0 !important;
+  border: none !important;
+}

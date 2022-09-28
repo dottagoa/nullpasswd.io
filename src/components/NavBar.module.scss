@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  justify-content: right;
+  margin-bottom: 3rem;
+
+  a {
+    padding: 0.2rem 0.5rem;
+
+    p {
+      margin: 0;
+    }
+  }
+}
+
+.current {
+  background: var(--btn);
+  color: var(--fg);
+  border: 1px solid var(--btn-border);
+  border-radius: 0.375rem;
+  text-decoration: none;
+  pointer-events: none;
+  transition: none;
+}

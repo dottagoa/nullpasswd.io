@@ -1,0 +1,24 @@
+.socialLink {
+  line-height: 1.3rem;
+  margin-bottom: 1.1rem;
+
+  a {
+    text-decoration: none;
+    transition: all 0.15s ease;
+    width: 100%;
+
+    &:hover .socialDesc {
+      color: var(--fg-faded-light);
+    }
+  }
+}
+
+.socialDesc {
+  color: var(--fg-faded);
+  font-style: italic;
+  transition: all 0.15s ease;
+}
+
+.noDesc {
+  line-height: 1.8rem;
+}
