@@ -7,6 +7,7 @@ import '../styles/globals.scss';
 
 import '../styles/twemoji-amazing.css';
 
+import Head from 'next/head';
 import Layout from '../components/layout';
 
 export default function Site({ Component, pageProps }: AppProps) {
@@ -15,8 +16,17 @@ export default function Site({ Component, pageProps }: AppProps) {
   }
 
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <>
+      <Head>
+        <link
+          rel='shortcut icon'
+          href='/favicon.png'
+        />
+      </Head>
+
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </>
   );
 }
